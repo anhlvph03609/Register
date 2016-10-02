@@ -1,5 +1,5 @@
 //
-//  Username.swift
+//  User.swift
 //  Registers
 //
 //  Created by Anh Lê Việt on 10/2/16.
@@ -7,10 +7,22 @@
 //
 
 import Foundation
-import  People.swift
-class User : People {
-    init() {
+class User : People{
+    var email : String = ""
+    var password :  String = ""
     
+    override init() {
+        super.init()
     }
- 
+    
+    init(email :  String, password : String , username: String)  {
+        self.email = email
+        self.password = password
+        super.init( username: username)
+    }
+    
+    
+    override func showInfor() -> String {
+        return "Username : " + username + "\n Email: " + email + "\n Passsword: " + password
+    }
 }
