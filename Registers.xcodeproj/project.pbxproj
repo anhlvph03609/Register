@@ -14,6 +14,9 @@
 		636E73F11DA1417000E5090F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636E73EF1DA1417000E5090F /* LaunchScreen.storyboard */; };
 		636E73FC1DA1417000E5090F /* RegistersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E73FB1DA1417000E5090F /* RegistersTests.swift */; };
 		636E74071DA1417000E5090F /* RegistersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E74061DA1417000E5090F /* RegistersUITests.swift */; };
+		636E74151DA143FD00E5090F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E74141DA143FD00E5090F /* LoginViewController.swift */; };
+		636E74171DA14F5B00E5090F /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E74161DA14F5B00E5090F /* People.swift */; };
+		636E741B1DA153DB00E5090F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E741A1DA153DB00E5090F /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		636E74021DA1417000E5090F /* RegistersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		636E74061DA1417000E5090F /* RegistersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistersUITests.swift; sourceTree = "<group>"; };
 		636E74081DA1417000E5090F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636E74141DA143FD00E5090F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		636E74161DA14F5B00E5090F /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		636E741A1DA153DB00E5090F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		636E73E51DA1417000E5090F /* Registers */ = {
 			isa = PBXGroup;
 			children = (
+				636E741A1DA153DB00E5090F /* User.swift */,
+				636E74161DA14F5B00E5090F /* People.swift */,
+				636E74141DA143FD00E5090F /* LoginViewController.swift */,
 				636E73E61DA1417000E5090F /* AppDelegate.swift */,
 				636E73E81DA1417000E5090F /* ViewController.swift */,
 				636E73EA1DA1417000E5090F /* Main.storyboard */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636E74171DA14F5B00E5090F /* People.swift in Sources */,
+				636E74151DA143FD00E5090F /* LoginViewController.swift in Sources */,
 				636E73E91DA1417000E5090F /* ViewController.swift in Sources */,
+				636E741B1DA153DB00E5090F /* User.swift in Sources */,
 				636E73E71DA1417000E5090F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
