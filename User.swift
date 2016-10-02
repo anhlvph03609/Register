@@ -24,6 +24,6 @@ class User : People{
     
     
     override func showInfor() -> String {
-            return "Username : " + username + "\n Email: " + email + "\n Password: " + password 
+            return "Username : " + username + "\n Email: " + email + "\n Passsword: " + password 
     }
 }
